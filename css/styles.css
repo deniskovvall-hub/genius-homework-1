@@ -1,0 +1,246 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v51-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v51-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* play-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v21-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --primary-color-blue: #2b7fff;
+  --primary-color-dark-blue: #011c44;
+  --primary-white: #fff;
+  --secondary-color-yelow: #ffd02b;
+  --secondary-color-blue: #011f4a;
+  --secondary-color-light-gray: #747272;
+  --secondary-color-gray: #4a4a4a;
+}
+
+/* all web */
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+/* body */
+
+body {
+  color: var(--primary-color-dark-blue);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* header */
+
+.header-logo {
+  color: var(--primary-color-blue);
+  font-size: 22px;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.header-link {
+  color: var(--primary-color-dark-blue);
+}
+
+.header-link:hover {
+  color: var(--primary-color-blue);
+  font-weight: 700;
+}
+
+/* main */
+
+.hero-section {
+  padding: 17px 0px 127px;
+}
+
+.first-text {
+  font-size: 18px;
+}
+
+.hero-text {
+  color: var(--primary-color-blue);
+  font-family: "Play", sans-serif;
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.advice {
+  color: var(--secondary-color-gray);
+  line-height: 1.5;
+}
+
+.change-in-beauty {
+  font-size: 64px;
+}
+
+.change {
+  text-transform: capitalize;
+  color: var(--primary-color-dark-blue);
+}
+
+.hospital {
+  line-height: 1.7;
+}
+
+.bz-blue {
+  color: var(--primary-color-blue);
+  text-transform: capitalize;
+}
+
+.dark-text {
+  text-transform: capitalize;
+  color: var(--primary-color-dark-blue);
+  font-weight: 600;
+}
+
+.article {
+  line-height: 1.3;
+}
+
+.people {
+  color: var(--primary-color-dark-blue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.us {
+  color: var(--primary-color-blue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.our {
+  color: var(--primary-color-dark-blue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.our span {
+  color: var(--primary-color-blue);
+}
+
+.find {
+  color: var(--primary-color-dark-blue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.find span {
+  color: var(--primary-color-blue);
+}
+/* footer */
+
+.footer-logo {
+  color: var(--primary-color-blue);
+  font-size: 22px;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: var(--primary-color-dark-blue);
+}
+
+.footer-link {
+  color: var(--primary-white);
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  color: var(--primary-color-blue);
+  font-weight: 700;
+}
+
+.address-link {
+  color: var(--primary-white);
+  font-size: 16px;
+}
+
+.address-link:hover {
+  color: var(--primary-color-blue);
+  font-weight: 700;
+}
+
+.policy {
+  color: var(--primary-white);
+  font-size: 16px;
+}
+
+.address-copy {
+  color: var(--primary-white);
+  font-size: 16px;
+}
+
+.policy:hover {
+  color: var(--primary-color-blue);
+  font-weight: 700;
+}
+
+/* ul */
+
+.nav-footer-link {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+/* btw */
+
+.order-call {
+  padding: 16px 32px;
+  color: var(--primary-white);
+  background-color: var(--primary-color-blue);
+  border: 2px solid var(--primary-color-blue);
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.order-call:hover {
+  background-color: transparent;
+  color: var(--primary-color-dark-blue);
+}
+
+/* other */
