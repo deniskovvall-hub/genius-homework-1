@@ -86,6 +86,14 @@ body {
   padding: 17px 0px 127px;
 }
 
+.second-section {
+  padding-bottom: 176px;
+}
+
+.section {
+  padding-bottom: 96px;
+}
+
 .first-text {
   font-size: 18px;
 }
